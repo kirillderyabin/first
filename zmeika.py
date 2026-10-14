@@ -2,7 +2,7 @@ from tkinter import *
 from enum import Enum
 import time
 import random
-
+print('WWW"W"W"WW"""""""""W"W"W"WWWWWWWWWWWWWW"W"W""WW""W""""')
 class python_snake: # Двигать тело змеюки в текущую сторону на 1 шаг
 # При этом тело может увеличиться (add='add') в размерах или нет
     def __init__(self, window, canv_x, canv_y, canv_width, canv_height):

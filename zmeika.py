@@ -1,25 +1,4 @@
-from tkinter import *
-from enum import Enum
-import time
-import random
-print('WWW"W"W"WW"""""""""W"W"W"WWWWWWWWWWWWWW"W"W""WW""W""""')
-class python_snake: # Двигать тело змеюки в текущую сторону на 1 шаг
-# При этом тело может увеличиться (add='add') в размерах или нет
-    def __init__(self, window, canv_x, canv_y, canv_width, canv_height):
-        self.__started = 1
-        self.__spped = 10
-        self.__window = window
-        self.__canv_x = canv_x
-        self.__canv_y = canv_y
-        self.canv_width = canv_width
-        self.canv_height = canv_height
-        self.__snake_x = self.canv_width // 2 # Координата старта змеи
-        self.__snake_y = self.canv_height // 2 # Координата старта змеи
-        self.canv = Canvas(self.__window, width=self.canv_width,
-                                height=self.canv_height,
-                                bg=self.CONST.CANVAS_BGCOLOR.value)
-        self.canv.place(x=self.__canv_x, y=self.__canv_y)
-        self.create_head_food()
+print('теперь ничо не работает')
 
         self.__window.bind('<d>',self.right)
         self.__window.bind('<D>',self.right)

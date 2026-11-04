@@ -4,3 +4,4 @@ while a > 0:
     a -= 7
 print('end')
 print('айайай')
+print('print')

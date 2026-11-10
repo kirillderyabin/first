@@ -5,3 +5,4 @@ while a > 0:
 print('end')
 print('айайай')
 print('print')
+a = 'a'

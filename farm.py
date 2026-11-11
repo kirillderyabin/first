@@ -15,3 +15,4 @@ print('sasasasas')
 print('b2b ssasasassasasaasasas')
 print('я короче хз уже что писать')
 print('ещё чет капец долго коммитить')
+a = '888888'
